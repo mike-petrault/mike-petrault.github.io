@@ -46,6 +46,11 @@ function create_comm_div(comm){
         doc_url_name = '<a href="' + comm.doc.url + '">' + comm.doc.type + '</a>';
     }
 
+    div_comm.append('<p  class = "comm_details">'+ 
+        doc_url_name +
+        '</p>');  
+
+
     return div_comm
 }
 
