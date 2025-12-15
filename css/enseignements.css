@@ -1,0 +1,11 @@
+#teaching ul p {
+    margin-bottom: 0;
+}
+#teaching ul {
+    margin-bottom: 0.5em;
+}
+
+#teaching .enseign_htd{
+    font-weight: lighter; 
+    font-style: italic;
+}

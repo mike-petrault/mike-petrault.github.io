@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="red">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Louis Roussel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="viBQR6jW0ohsh4aX3y_g7GQKw4YUtOKk66zZgdWpLyE" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/sidebar.css" rel="stylesheet" />
+    <link href="css/comms.css" rel="stylesheet" />
+    <link href="css/pubs.css" rel="stylesheet" />
+    <link href="css/enseignements.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="js/utils.js"></script>
+
+
+    <script data-goatcounter="https://louis-roussel-github-io.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js">
+    </script>
+</head>
+
+<body>
+    <div class="container-md">
+        <div class="row">           
+            <div id="main" class="col-lg-8 col-md-9 col-sm-12 mx-auto"> 
+                <h2>Louis Roussel</h2>
+                <div class="row mb-3" id="home">
+                    <div class="col-xl-2 col-md-3 col-sm-3 col-4 pe-0">
+                        <img
+                        class="rounded"
+                        style="width: 100%; "
+                        src="img/IMG_0162.jpg"
+                        /> 
+                    </div>
+                    <div class="col-xl-10 col-md-9 col-sm-9 col-8">
+                        
+                        PhD Student since 2022<br>
+                        Supervised by 
+                        <a href="https://www.fil.univ-lille.fr/~lemairef/homepage/index.php">François Lemaire</a><br> 
+                        
+                        louis.roussel@univ-lille.fr<br>
+    
+                        <a href="https://cfhp.univ-lille.fr/">CFHP team</a>,  
+                        <a href="https://www.cristal.univ-lille.fr/"> 
+                        CRIStAL</a><br>
+                        Université de Lille (France) <br>
+                    </div>
+                </div>
+                <div class="my-2 px-2" style="text-align: justify; text-indent: 2em;">
+                    I work on systems of nonlinear differential equations. My thesis focuses on
+                    computing Input/Ouput integral equations from a dynamical system using integral elimination.
+                    The aim is to perform parameter estimation from the integral equations to deal with noisy measurements.
+                    Another part of my work is using deep learning techniques to improve the integral elimination algorithm I am working on.
+                    <br> 
+                    <div class="mt-1" style="font-style: italic;"> 
+                        Keywords: 
+                        Computer Algebra, Computer Science, integral elimination, deep learning, NLP, Transformer
+                    </div> 
+                </div>
+                <div id="software">
+                    <h4>Softwares</h4>
+                    <ul>
+                        <li>
+                            <a href="https://codeberg.org/louis-roussel/IntegralElimination">IntegralElimination</a>:
+                            Algorithm for performing integral elimination for nonlinear integral equations 
+                        </li>
+                        <li>
+                            <a href="https://codeberg.org/louis-roussel/parameter-estimation-IO-equations">parameter-estimation-IO-equations</a>:
+                            Package for computing cost/gradient/hessian functions from an integro-differential equation and to do parameter estimation. 
+                        </li>
+                        <li>
+                            <a href="https://codeberg.org/louis-roussel/IntegroDifferentialDeepLearning">IntegroDifferentialDeepLearning</a>:
+                            Package for manipulating systems of differential and integral equations using deep learning technics.
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div id="publications">
+                    <h4>Publications (automatically generated from HAL)</h4>
+                </div>
+        
+                <div id="communications">
+                    <h4>Communications</h4>
+                </div>
+        
+                <div id="teaching">
+                    <h4>Teachings</h4>  
+                </div>
+            </div>
+        </div> 
+    </div>
+ 
+
+
+
+    <!-- create navbar -->
+    <script src="js/create_navbar.js"></script>
+    <!-- import from hal and append to #publications  #publications -->
+    <script src="js/create_publi_hal.js"></script>
+    <!-- append comms to communications.js and use the list in create_comms.js -->
+    <script src="js/data/communications.js"></script>
+    <script src="js/create_comms.js"></script>
+    <!-- append comms to enseignements.js and use the list in create_enseignements.js -->
+    <script src="js/data/enseignements.js"></script>
+    <script src="js/create_enseignements.js"></script>
+
+    
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

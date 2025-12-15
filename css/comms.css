@@ -1,0 +1,23 @@
+
+.comm{
+    /* background-color: rgb(193, 193, 193); */
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    padding: 0.5em;    
+}
+
+
+.comm p{
+    margin: 0;
+}
+
+.comm_details{
+    font-style: italic;
+    font-size: small;
+}
+
+.comms_year_div{
+    /* background-color: rgb(243, 243, 243); */ 
+    /* width: 50vw; */
+}

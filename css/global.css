@@ -1,0 +1,28 @@
+
+body{
+    display: grid;
+    font-size:1em !important;
+    justify-content: center; 
+}
+
+#main{
+    margin-top: 2em;
+    margin-bottom: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+a {
+    text-decoration: none !important;
+  }
+
+
+
+
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+
+    #main{
+        width: 90vw;
+    }
+}

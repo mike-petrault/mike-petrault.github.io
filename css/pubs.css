@@ -1,0 +1,17 @@
+
+.pub{
+    /* background-color: rgb(193, 193, 193); */
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    padding: 1em;    
+}
+ 
+.pub p{
+    margin: 0;
+}
+
+.pubs_year_div{
+    /* background-color: rgb(243, 243, 243); */ 
+    /* width: 50vw; */
+}
