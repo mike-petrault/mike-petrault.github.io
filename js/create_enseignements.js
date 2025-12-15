@@ -20,12 +20,12 @@ async function create_enseignements_div() {
         let year = e[0];
         let enseign_per_year = e[1];
         let div_year = $('<div class="enseign_year_div"></div>');
-        div_year.append('<h3 class="enseign_year mt-3">'+year+'</h3>');
+        div_year.append('<h4 class="enseign_year mt-3">'+year+'</h4>');
 
         enseign_per_year.forEach(enseign => {
             
             let div_enseign = $('<div class="enseign  mt-2"></div>');
-            const pill_total_htd =  '<span class="badge text-bg-primary rounded-pill">'+enseign.HTD+' HTD</span>';
+            const pill_total_htd =  '<span class="badge badge-htd rounded-pill">'+enseign.HTD+' HTD</span>';
             
             let htd_details_list  = Object.entries(enseign.heures).filter(
                 ([key, value]) => value !== 0);
