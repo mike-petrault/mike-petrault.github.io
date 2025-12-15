@@ -1,6 +1,6 @@
 
   
-const url_hal = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:louis-roussel&fl=fileMain_s,authFullName_s,title_s,docType_s,publisher_s,citationRef_s,halId_s,releasedDateY_i,releasedDate_tdate&wt=json&sort=releasedDate_tdate desc";
+const url_hal = "https://api.archives-ouvertes.fr/search/?q=authIdHal_s:mike-petrault&fl=fileMain_s,authFullName_s,title_s,docType_s,publisher_s,citationRef_s,halId_s,releasedDateY_i,releasedDate_tdate&wt=json&sort=releasedDate_tdate desc";
 
 
 async function getData(url) {
