@@ -40,6 +40,6 @@ const all_enseignements =  [
             "TP":18,
             "Projet":0
         }
-    },
+    }
 ];
   
