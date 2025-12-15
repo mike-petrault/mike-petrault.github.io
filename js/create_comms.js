@@ -65,7 +65,7 @@ async function create_communications_div() {
         let year = e[0];
         let comms_per_year = e[1];
         let div_year = $('<div class="comms_year_div"></div>');
-        div_year.append('<h4 class="comms_year">'+year+'</h4>');
+        div_year.append('<h4 class="comms_year mt-3">'+year+'</h4>');
 
         comms_per_year.forEach(comm => {
             let div_comm = create_comm_div(comm)
