@@ -40,6 +40,12 @@ function create_comm_div(comm){
         formatted_date + 
         ")" +
         '</p>');  
+
+    let doc_url_name = comm.doc.type;
+    if (comm.doc.url !== null) {
+        doc_url_name = '<a href="' + comm.doc.url + '">' + comm.doc.type + '</a>';
+    }
+
     return div_comm
 }
 

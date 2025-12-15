@@ -10,7 +10,7 @@
                 "end": "2022-09-17",
             },
             "doc":{
-                "type": "Slides",
+                "type": "Video",
                 "url": "https://webtv.univ-lille.fr/video/13239/parallel-bias-reduction-in-galaxy-observations-with-julia-"
             }
         }
