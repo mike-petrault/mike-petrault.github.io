@@ -1,13 +1,13 @@
  const all_comms = [ 
         {
             "title": "Parallel bias reduction in galaxy observations with Julia",
-            "conf_name": "Journées Calcul et Données",
+            "conf_name": "JCAD (Journées Calcul et Données)",
             "conf_url":"https://jcad2025.sciencesconf.org/",
             "where": "Université de Lille (France)",
             "when": {
                 "year": 2025,
-                "start": "2022-09-15",
-                "end": "2022-09-17",
+                "start": "2025-09-15",
+                "end": "2025-09-17",
             },
             "doc":{
                 "type": "Video",
