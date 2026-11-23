@@ -41,5 +41,33 @@ const all_enseignements =  [
             "Projet":0
         }
     }
+    {
+        "title": "Programmation",
+        "year": 2026,
+        "study_year":"PEIP1",
+        "where":"Université de Lille",
+        "HTD":18,
+        "heures":{
+            "CM":0,
+            "CTD":0,
+            "TD":18,
+            "TP":0,
+            "Projet":0
+        }
+    }
+    {
+        "title": "Algorithmique et Programmation",
+        "year": 2027,
+        "study_year":"PEIP1",
+        "where":"Université de Lille",
+        "HTD":36,
+        "heures":{
+            "CM":0,
+            "CTD":0,
+            "TD":18,
+            "TP":18,
+            "Projet":0
+        }
+    }
 ];
   
