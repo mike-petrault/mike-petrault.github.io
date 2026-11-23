@@ -81,7 +81,7 @@ async function create_publications_div_type() {
     let all_pubs_grouped = group_pubs_by_type(all_pubs)  
     let loop_on = ['UNDEFINED','ART','COMM','POSTER']
     loop_on.forEach(type => { 
-        let pubs_per_type = all_pubs_grouped[type];
+        let pubs_per_type = all_pubs_grouped[type] || [];
         let div_type = $('<div class="pubs_type_div"></div>');
         div_type.append('<h5 class="pubs_type mt-3">'+map_type_hal_to_str(type)+'</h5>');
         pubs_per_type.forEach(pub => {

@@ -40,7 +40,7 @@ const all_enseignements =  [
             "TP":18,
             "Projet":0
         }
-    }
+    },
     {
         "title": "Programmation",
         "year": 2026,
@@ -54,7 +54,7 @@ const all_enseignements =  [
             "TP":0,
             "Projet":0
         }
-    }
+    },
     {
         "title": "Algorithmique et Programmation",
         "year": 2027,
